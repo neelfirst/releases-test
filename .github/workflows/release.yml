@@ -14,5 +14,6 @@ jobs:
         with:
           body: "|Hello|from|markdown|"
           generate_release_notes: true
+          append_body: true
         env:
           GITHUB_REPOSITORY: neelfirst/releases-test
